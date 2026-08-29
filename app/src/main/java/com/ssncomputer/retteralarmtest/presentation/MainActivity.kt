@@ -5,13 +5,16 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.runtime.LaunchedEffect
 import androidx.core.content.IntentCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.wear.compose.navigation.rememberSwipeDismissableNavController
 import com.ssncomputer.retteralarmtest.data.local.SecureTokenStorage
 import com.ssncomputer.retteralarmtest.domain.model.NotificationPayload
 import com.ssncomputer.retteralarmtest.notification.CleverPushMessagingService
 import com.ssncomputer.retteralarmtest.notification.CleverPushSdk
 import com.ssncomputer.retteralarmtest.notification.NotificationEventBus
+import com.ssncomputer.retteralarmtest.presentation.navigation.ROUTE_LOGIN
 import com.ssncomputer.retteralarmtest.presentation.navigation.WatchNavHost
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.MainScope
@@ -34,7 +37,23 @@ class MainActivity : ComponentActivity() {
         handleNotificationIntent(intent)
 
         setContent {
-            WatchNavHost(eventBus = eventBus, tokenStorage = tokenStorage)
+            val navController = rememberSwipeDismissableNavController()
+
+            LaunchedEffect(Unit) {
+                tokenStorage.isLoggedIn.collect {
+                    if (!it) {
+                        navController.navigate(ROUTE_LOGIN) {
+                            popUpTo(0)
+                        }
+                    }
+                }
+            }
+
+            WatchNavHost(
+                eventBus = eventBus,
+                tokenStorage = tokenStorage,
+                navController = navController
+            )
         }
     }
 

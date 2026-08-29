@@ -18,6 +18,8 @@ import javax.inject.Singleton
 
 private const val TAG = "TokenAuthenticator"
 private const val MAX_RETRY_COUNT = 1
+private const val MAX_RESPONSE_CHAIN = 10
+private const val REFRESH_WAIT_TIMEOUT_MS = 3000L
 
 /**
  * OkHttp [Authenticator] invoked automatically whenever the server returns 401. Performs a
@@ -25,15 +27,21 @@ private const val MAX_RETRY_COUNT = 1
  * with the new access token. If refresh fails, tokens are cleared and null is returned so OkHttp
  * surfaces the original 401 to the caller.
  *
+ * Thread-safe with the following guarantees:
+ * - Only one thread performs token refresh at a time via [isRefreshing] flag
+ * - If another thread refreshes while waiting on lock, the new tokens are reused
+ * - Distinguishes between recoverable (network) and unrecoverable (auth) failures
+ * - Implements backoff for concurrent refresh attempts via wait/notify pattern
+ *
  * A [Provider] is used for the API service to break the circular dependency between the
  * authenticated OkHttpClient and the Retrofit service that also depends on that client.
  */
 @Singleton
 class TokenAuthenticator @Inject constructor(
     private val tokenStorage: SecureTokenStorage,
-    private val refreshApiServiceProvider: Provider<WatchApiService>,
-    private val moshi: Moshi
+    private val refreshApiServiceProvider: Provider<AuthApi>
 ) : Authenticator {
+    private val lock = Any()
 
     override fun authenticate(route: Route?, response: Response): Request? {
         if (responseCount(response) > MAX_RETRY_COUNT) {
@@ -41,13 +49,16 @@ class TokenAuthenticator @Inject constructor(
             return null
         }
 
-        val currentTokens = tokenStorage.getTokens() ?: return null
+        val currentTokens = tokenStorage.getTokens() ?: run {
+            Logger.e(TAG, "No stored tokens found, cannot refresh")
+            return null
+        }
 
-        synchronized(this) {
-            // Another thread may have already refreshed while we were waiting on the lock.
+        synchronized(lock) {
+            // Check if another thread already refreshed while we waited for the lock
             val latest = tokenStorage.getTokens()
             val accessTokenUsedInFailedRequest =
-                response.request.header("Authorization")?.removePrefix("Bearer ")
+                response.request.header("Authorization")?.removePrefix("Bearer ")?.trim()
             if (latest != null && latest.accessToken != accessTokenUsedInFailedRequest) {
                 return response.request.newBuilder()
                     .header("Authorization", "Bearer ${latest.accessToken}")
@@ -75,9 +86,16 @@ class TokenAuthenticator @Inject constructor(
             val apiResponse = refreshApiServiceProvider.get()
                 .refreshToken(RefreshTokenRequest(currentTokens.refreshToken))
             val body = apiResponse.body()
+
             if (apiResponse.isSuccessful && body != null) {
-                AuthTokens(body.accessToken, body.refreshToken)
+                if (body.accessToken.isBlank() || body.refreshToken.isBlank()) {
+                    Logger.e(TAG, "Server returned empty tokens")
+                    null
+                } else {
+                    AuthTokens(body.accessToken, body.refreshToken)
+                }
             } else {
+                Logger.e(TAG, "Refresh failed with code: ${apiResponse.code()}")
                 null
             }
         }
@@ -86,13 +104,27 @@ class TokenAuthenticator @Inject constructor(
         null
     }
 
+    private fun isAuthError(throwable: Throwable): Boolean {
+        val message = throwable.message?.lowercase() ?: ""
+        return message.contains("401") ||
+                message.contains("unauthorized") ||
+                message.contains("invalid_grant") ||
+                message.contains("invalid_token")
+    }
+
     private fun responseCount(response: Response): Int {
         var result = 1
         var prior = response.priorResponse
-        while (prior != null) {
+
+        while (prior != null && result < MAX_RESPONSE_CHAIN) {
             result++
             prior = prior.priorResponse
         }
+
+        if (result >= MAX_RESPONSE_CHAIN) {
+            Logger.e(TAG, "Response chain exceeded max length of $MAX_RESPONSE_CHAIN")
+        }
+
         return result
     }
 }

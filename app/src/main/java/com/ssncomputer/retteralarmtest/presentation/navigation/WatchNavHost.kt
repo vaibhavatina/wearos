@@ -4,6 +4,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.navigation.NavHostController
 import androidx.wear.compose.navigation.SwipeDismissableNavHost
 import androidx.wear.compose.navigation.composable
 import androidx.wear.compose.navigation.rememberSwipeDismissableNavController
@@ -15,6 +19,7 @@ import com.ssncomputer.retteralarmtest.presentation.notificationdetail.Notificat
 import com.ssncomputer.retteralarmtest.presentation.notificationdetail.NotificationDetailViewModel
 import kotlinx.coroutines.flow.collectLatest
 
+const val ROUTE_LOGIN = "login"
 private const val ROUTE_HOME = "home"
 private const val ROUTE_NOTIFICATION_DETAIL = "notification_detail"
 
@@ -26,29 +31,51 @@ private const val ROUTE_NOTIFICATION_DETAIL = "notification_detail"
  */
 @Composable
 fun WatchNavHost(eventBus: NotificationEventBus, tokenStorage: SecureTokenStorage) {
-    val isLoggedIn by tokenStorage.isLoggedIn.collectAsState()
+    val navController = rememberSwipeDismissableNavController()
+    WatchNavHost(
+        eventBus = eventBus,
+        tokenStorage = tokenStorage,
+        navController = navController
+    )
+}
 
-    if (!isLoggedIn) {
-        LoginScreen()
-        return
+@Composable
+fun WatchNavHost(
+    eventBus: NotificationEventBus,
+    tokenStorage: SecureTokenStorage,
+    navController: NavHostController
+) {
+    val isLoggedIn by tokenStorage.isLoggedIn.collectAsState()
+    val startDestination = if (isLoggedIn) ROUTE_HOME else ROUTE_LOGIN
+    var lastHandledNotificationId by remember { mutableStateOf<String?>(null) }
+
+    LaunchedEffect(isLoggedIn) {
+        if (isLoggedIn) {
+            navController.navigate(ROUTE_HOME) {
+                launchSingleTop = true
+                popUpTo(ROUTE_LOGIN) { inclusive = true }
+            }
+        }
     }
 
-    val navController = rememberSwipeDismissableNavController()
-    var lastHandledNotificationId: String? = null
-
-    LaunchedEffect(Unit) {
-        eventBus.events.collectLatest { payload ->
-            if (payload.notificationId != lastHandledNotificationId) {
-                lastHandledNotificationId = payload.notificationId
-                navController.currentBackStackEntry?.savedStateHandle?.set("payload", payload)
-                navController.navigate(ROUTE_NOTIFICATION_DETAIL) {
-                    popUpTo(ROUTE_HOME)
+    LaunchedEffect(isLoggedIn) {
+        if (isLoggedIn) {
+            eventBus.events.collectLatest { payload ->
+                if (payload.notificationId != lastHandledNotificationId) {
+                    lastHandledNotificationId = payload.notificationId
+                    navController.currentBackStackEntry?.savedStateHandle?.set("payload", payload)
+                    navController.navigate(ROUTE_NOTIFICATION_DETAIL) {
+                        popUpTo(ROUTE_HOME)
+                    }
                 }
             }
         }
     }
 
-    SwipeDismissableNavHost(navController = navController, startDestination = ROUTE_HOME) {
+    SwipeDismissableNavHost(navController = navController, startDestination = startDestination) {
+        composable(ROUTE_LOGIN) {
+            LoginScreen()
+        }
         composable(ROUTE_HOME) {
             HomeScreen()
         }

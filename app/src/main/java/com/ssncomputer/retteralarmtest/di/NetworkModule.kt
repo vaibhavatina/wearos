@@ -1,6 +1,7 @@
 package com.ssncomputer.retteralarmtest.di
 
 import com.ssncomputer.retteralarmtest.BuildConfig
+import com.ssncomputer.retteralarmtest.data.remote.AuthApi
 import com.ssncomputer.retteralarmtest.data.remote.AuthInterceptor
 import com.ssncomputer.retteralarmtest.data.remote.TokenAuthenticator
 import com.ssncomputer.retteralarmtest.data.remote.WatchApiService
@@ -44,11 +45,12 @@ object NetworkModule {
         tokenAuthenticator: TokenAuthenticator,
         loggingInterceptor: HttpLoggingInterceptor
     ): OkHttpClient = OkHttpClient.Builder()
+        .authenticator(tokenAuthenticator)
+        .addInterceptor(authInterceptor)
         .connectTimeout(15, TimeUnit.SECONDS)
         .readTimeout(15, TimeUnit.SECONDS)
         .writeTimeout(15, TimeUnit.SECONDS)
-        .addInterceptor(authInterceptor)
-        .authenticator(tokenAuthenticator)
+        .retryOnConnectionFailure(true)
         .addInterceptor(loggingInterceptor)
         .build()
 
@@ -64,4 +66,9 @@ object NetworkModule {
     @Singleton
     fun provideWatchApiService(retrofit: Retrofit): WatchApiService =
         retrofit.create(WatchApiService::class.java)
+
+    @Provides
+    @Singleton
+    fun provideAuthApi(retrofit: Retrofit): AuthApi =
+        retrofit.create(AuthApi::class.java)
 }

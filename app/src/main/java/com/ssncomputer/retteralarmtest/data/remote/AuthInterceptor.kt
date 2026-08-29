@@ -11,29 +11,51 @@ import javax.inject.Inject
  * Content-Type, Accept, Authorization, x-refresh-token, time-zone.
  *
  * The refresh endpoint itself is excluded from Authorization/x-refresh-token injection since it
- * carries the refresh token in its body instead (see [WatchApiService.refreshToken]).
+ * carries the refresh token in its body instead (see [AuthApi.refreshToken]).
  */
 class AuthInterceptor @Inject constructor(
     private val tokenStorage: SecureTokenStorage,
     private val timeZoneProvider: TimeZoneProvider
 ) : Interceptor {
 
-    override fun intercept(chain: Interceptor.Chain): Response {
-        val original = chain.request()
-        val builder = original.newBuilder()
-            .header("Content-Type", "application/json")
-            .header("Accept", "application/json")
-            .header("time-zone", timeZoneProvider.current())
+    override fun intercept(
+        chain: Interceptor.Chain
+    ): Response {
 
-        val isRefreshCall = original.url.encodedPath.endsWith("/api/auth/refresh")
-        if (!isRefreshCall) {
-            tokenStorage.getTokens()?.let { tokens ->
-                builder
-                    .header("Authorization", "Bearer ${tokens.accessToken}")
-                    .header("x-refresh-token", tokens.refreshToken)
-            }
+        val request = chain.request()
+
+        val builder = request.newBuilder()
+            .header("Accept", "application/json")
+            .header("Content-Type", "application/json")
+            .header(
+                "time-zone",
+                timeZoneProvider.current()
+            )
+
+        val isRefresh =
+            request.url.encodedPath.endsWith(
+                "/api/auth/refresh"
+            )
+
+        if (!isRefresh) {
+
+            tokenStorage.getTokens()
+                ?.let { token ->
+
+                    builder.header(
+                        "Authorization",
+                        "Bearer ${token.accessToken}"
+                    )
+
+                    builder.header(
+                        "x-refresh-token",
+                        token.refreshToken
+                    )
+                }
         }
 
-        return chain.proceed(builder.build())
+        return chain.proceed(
+            builder.build()
+        )
     }
 }
