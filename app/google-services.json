@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945470903068",
+    "firebase_url": "https://retteralarm-test.firebaseio.com",
+    "project_id": "retteralarm-test",
+    "storage_bucket": "retteralarm-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945470903068:android:c7a5bd45462a71a883a0d9",
+        "android_client_info": {
+          "package_name": "com.ssncomputer.retteralarmtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945470903068-136o8jkp3u37n12bn76suoocc59nv9mc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0rcocRDxj75uGpsZ9BEF8oQ0M-Z_OczI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945470903068-136o8jkp3u37n12bn76suoocc59nv9mc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.ssncomputer.retteralarmtest.app-debug-76:/drawable_ic_notification.xml.flat",
+        "source": "com.ssncomputer.retteralarmtest.app-main-78:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.ssncomputer.retteralarmtest.app-debug-76:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.ssncomputer.retteralarmtest.app-main-78:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.ssncomputer.retteralarmtest.app-debug-76:/xml_network_security_config.xml.flat",
+        "source": "com.ssncomputer.retteralarmtest.app-main-78:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.ssncomputer.retteralarmtest.app-debug-76:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ssncomputer.retteralarmtest.app-main-78:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ssncomputer.retteralarmtest.app-debug-76:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ssncomputer.retteralarmtest.app-main-78:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,992 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:2:1-46:12
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ff6d40611cc75df39c55baeecf1ef339/transformed/compose-material-core-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5e5f90880ddc025be24378424bba5e49/transformed/compose-navigation-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/46fece399833c3021592a529dd83a9a9/transformed/compose-foundation-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d50850f9f66cb5402b1449dbcc813ae8/transformed/compose-material-1.3.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/a70e7c4e8904106a2b4721fb6815709c/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5da61f78a935863f49908fc1515870f8/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8288a3cf9eab8df6c19696b34558599e/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5cd2d8c62673f1f1599e207be5e56835/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cfc9b0cdfab990e16212185a91e7d307/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4035b51584f1db9abf9e0a4f6ad9668d/transformed/navigation-common-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e07c6bcedebf0cec309b2533a37273c/transformed/navigation-compose-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6beaac8a78109481b172c4fe0a995588/transformed/hilt-android-2.51.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:2:1-124:12
+MERGED from [com.google.android.material:material:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0a66f5c5cb2d85fe2104bae9875f5d8d/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/44b4dc340f0823c021f0bc30413916e8/transformed/glide-4.15.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/190f31dae24db0daf3f89bbf82688a6d/transformed/play-services-wearable-17.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/00b3373a70f3c59c3b3bc8215a05e319/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:17:1-66:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2863ea1b149e552a5d11626a58653720/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/239c9e2a2a1d0ed62ae5898e5b591b3f/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f063a031558b3c4a37551fabe870c6cd/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3235d5748f5e4d09c1ed19d7478a22a2/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1bdbd5a21aa2096b146822452225dd53/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f28d34620425d0f9711aeef9be80f797/transformed/play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/de13390757620fdf62441c3a08377c24/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d31ec58b9cc8a1476d5da88a58a96797/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/27b3765c50ac657d6ac74bd3fa4104a9/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52d39adce07e99e0be589c04a26e56e5/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/b4b0e78b3c202ec8e18e723ea8c26f75/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2fa2e41c4d13d002351d2e56e2242322/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8333d5f61734fc9974979a39468b7140/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ba52bb498e5531ac6e1736107e3f9aea/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/e69996f30a5682a4bb972ecc5a8710ff/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9ae5939755d635d19a0f0110a72abf65/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/bf9db56ae45c8aad8d339ec36cd27a7c/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/813b5c429a353755b8e913e520beebcb/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/396ab095d52087430b21ec297f419f9e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f035205a77d7e81b39ca2fce278fcc6c/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f4093124f44f34ec3ff4e098414fff20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ae41d0b4a310d130435aa81ebaae6758/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14095415822ac4b78edc506132b02f34/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c834e551c6e9f35482fef682cbf5c8f7/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7264aba96d9b742b5afca8ce8910a630/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f0b8c38dbe2ca5f1c4b2be1a52245312/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8a5e20fb6e9532a3728580b4b0764eb9/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cf4089fd4ca437e04a6e99514d25c5a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7a879e801791830427bcf5f10ea0e1e7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/66fc35b52bbeba513f33031c1871127e/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d62b4fa635c183745a9c47709f0ecbd1/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7857c2dfbb8604419aed665609154421/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/15448a8d104a00cd99b7da1d77f8bc87/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8e570e53b1a2528078e4a7623a07b76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8c5e35dbfa11f53f37c30f84485fdf5a/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d39f5d2a50ca81b2e6340b33a40a7aca/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6d7475a6d3da4f4fcea946e6c2c3e11d/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b7dcad621fb9cd925e1b082009f111f/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8f74d176fe3bdf27a6fed81d0032bd72/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e98e6e22c76fc73a460b07dd1b34de5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/79ec746b2cc7fcdf86b272ffa59d678e/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cd229a331cdad0823ca0c5433982d10c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ccad1d3077d892ea9a688c915e0771a1/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8b245f7b58a1fb002f816b7216c0b763/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/58a774b2aaf823f87f1fd9b063367b9e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f3a0171e14c9611250722d00b1283eea/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/04cab500e73b84b9628d63c8fd079090/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9a067a06eab32fef7c6bc5c9027e442a/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/abc0bbc3d1b97c797f886a5b3399892f/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c27f1e139f6ffeacdacba9e4d66dd04a/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52a0e6033813bdcad7261e4428911131/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/242254add805d626b966deb9ef427dc9/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/627fb5ec24f1259e1e0104067d3a8cee/transformed/activity-compose-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5a210fc7fb4b4d67110fe4f3e18ce677/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/34adc040cb686f477851faea08e0ed49/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/62c9fbe18c209527b4159090bef59574/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fb883cdd5e9de3c88282c7f62b9e4d9b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/648ed4983ec77fa7ad39561fc9b2d6e6/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/270145ba37ea98e00c39e4801daf830c/transformed/sqlite-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8fd7227841bf9b9bf9615295ce717cb/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/516e10e7980d2bd2de0cf196c02c3003/transformed/gifdecoder-4.15.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fdf8304d5aade547fe48b3f03eb25b25/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:15:1-31:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b9e686ffe01f08b5ccc144024ccb977/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/207663552df672ae509e262f4da59c58/transformed/transport-api-3.1.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/87108cbe0dad047219e8dde61f97bac1/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cbba7ca65412b3c056c7b7d728d20ebf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/50187ed9daf235069e0dd905c46755a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/028f6b4b23b0e018b0d521bec5e943e3/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2af86e20f3899513c77c6e8315b555b6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c1154cace6abbee6948d0b473f69f6f1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/71f59810268daab715b676042b9764d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d9d388922f9c96c9fb67e74ea691d1d8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1c1651ab084a6b27a494398e4c18e685/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:16:1-19:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/dd510d959cb925985e507e0247f4f859/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.type.watch
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:4:5-64
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:4:19-61
+uses-permission#android.permission.INTERNET
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:7:5-67
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:7:5-77
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:9:5-77
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:9:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:8:22-65
+application
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:10:5-45:19
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:10:5-45:19
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:70:5-122:19
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:70:5-122:19
+MERGED from [com.google.android.material:material:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0a66f5c5cb2d85fe2104bae9875f5d8d/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0a66f5c5cb2d85fe2104bae9875f5d8d/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/44b4dc340f0823c021f0bc30413916e8/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/44b4dc340f0823c021f0bc30413916e8/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/190f31dae24db0daf3f89bbf82688a6d/transformed/play-services-wearable-17.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/190f31dae24db0daf3f89bbf82688a6d/transformed/play-services-wearable-17.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/00b3373a70f3c59c3b3bc8215a05e319/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/00b3373a70f3c59c3b3bc8215a05e319/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:28:5-64:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2863ea1b149e552a5d11626a58653720/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2863ea1b149e552a5d11626a58653720/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3235d5748f5e4d09c1ed19d7478a22a2/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3235d5748f5e4d09c1ed19d7478a22a2/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1bdbd5a21aa2096b146822452225dd53/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1bdbd5a21aa2096b146822452225dd53/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f28d34620425d0f9711aeef9be80f797/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f28d34620425d0f9711aeef9be80f797/transformed/play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/abc0bbc3d1b97c797f886a5b3399892f/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/abc0bbc3d1b97c797f886a5b3399892f/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/516e10e7980d2bd2de0cf196c02c3003/transformed/gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/516e10e7980d2bd2de0cf196c02c3003/transformed/gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:21:5-29:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/50187ed9daf235069e0dd905c46755a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/50187ed9daf235069e0dd905c46755a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/dd510d959cb925985e507e0247f4f859/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/dd510d959cb925985e507e0247f4f859/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:12:9-36
+	android:theme
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:15:9-59
+	android:networkSecurityConfig
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:16:9-69
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:11:9-72
+meta-data#com.google.android.wearable.standalone
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:9-97
+	android:value
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:74-94
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:20-73
+activity#com.ssncomputer.retteralarmtest.presentation.MainActivity
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:20:9-36:20
+	android:launchMode
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:23:13-44
+	android:exported
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:22:13-36
+	android:taskAffinity
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:21:13-85
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:27:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:notification+data:scheme:smartwatchapp
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:30:13-35:29
+action#android.intent.action.VIEW
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:32:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:33:17-78
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:33:27-75
+data
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:17-84
+	android:host
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:54-81
+	android:scheme
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:23-53
+service#com.ssncomputer.retteralarmtest.notification.CleverPushMessagingService
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:38:9-44:19
+	android:exported
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:39:13-99
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:41:13-43:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:25-75
+uses-sdk
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ff6d40611cc75df39c55baeecf1ef339/transformed/compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material-core:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ff6d40611cc75df39c55baeecf1ef339/transformed/compose-material-core-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5e5f90880ddc025be24378424bba5e49/transformed/compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-navigation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5e5f90880ddc025be24378424bba5e49/transformed/compose-navigation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/46fece399833c3021592a529dd83a9a9/transformed/compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-foundation:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/46fece399833c3021592a529dd83a9a9/transformed/compose-foundation-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d50850f9f66cb5402b1449dbcc813ae8/transformed/compose-material-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.wear.compose:compose-material:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d50850f9f66cb5402b1449dbcc813ae8/transformed/compose-material-1.3.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/a70e7c4e8904106a2b4721fb6815709c/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/a70e7c4e8904106a2b4721fb6815709c/transformed/hilt-navigation-compose-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5da61f78a935863f49908fc1515870f8/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5da61f78a935863f49908fc1515870f8/transformed/hilt-navigation-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8288a3cf9eab8df6c19696b34558599e/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8288a3cf9eab8df6c19696b34558599e/transformed/navigation-common-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5cd2d8c62673f1f1599e207be5e56835/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5cd2d8c62673f1f1599e207be5e56835/transformed/navigation-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cfc9b0cdfab990e16212185a91e7d307/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cfc9b0cdfab990e16212185a91e7d307/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4035b51584f1db9abf9e0a4f6ad9668d/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4035b51584f1db9abf9e0a4f6ad9668d/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e07c6bcedebf0cec309b2533a37273c/transformed/navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.6.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e07c6bcedebf0cec309b2533a37273c/transformed/navigation-compose-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6beaac8a78109481b172c4fe0a995588/transformed/hilt-android-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6beaac8a78109481b172c4fe0a995588/transformed/hilt-android-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:5:5-44
+MERGED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0a66f5c5cb2d85fe2104bae9875f5d8d/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0a66f5c5cb2d85fe2104bae9875f5d8d/transformed/material-1.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/44b4dc340f0823c021f0bc30413916e8/transformed/glide-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/44b4dc340f0823c021f0bc30413916e8/transformed/glide-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/190f31dae24db0daf3f89bbf82688a6d/transformed/play-services-wearable-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/190f31dae24db0daf3f89bbf82688a6d/transformed/play-services-wearable-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/00b3373a70f3c59c3b3bc8215a05e319/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/00b3373a70f3c59c3b3bc8215a05e319/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2863ea1b149e552a5d11626a58653720/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2863ea1b149e552a5d11626a58653720/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/239c9e2a2a1d0ed62ae5898e5b591b3f/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/239c9e2a2a1d0ed62ae5898e5b591b3f/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f063a031558b3c4a37551fabe870c6cd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f063a031558b3c4a37551fabe870c6cd/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3235d5748f5e4d09c1ed19d7478a22a2/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3235d5748f5e4d09c1ed19d7478a22a2/transformed/firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1bdbd5a21aa2096b146822452225dd53/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1bdbd5a21aa2096b146822452225dd53/transformed/firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f28d34620425d0f9711aeef9be80f797/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f28d34620425d0f9711aeef9be80f797/transformed/play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/de13390757620fdf62441c3a08377c24/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/de13390757620fdf62441c3a08377c24/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d31ec58b9cc8a1476d5da88a58a96797/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d31ec58b9cc8a1476d5da88a58a96797/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/27b3765c50ac657d6ac74bd3fa4104a9/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/27b3765c50ac657d6ac74bd3fa4104a9/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52d39adce07e99e0be589c04a26e56e5/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52d39adce07e99e0be589c04a26e56e5/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/b4b0e78b3c202ec8e18e723ea8c26f75/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/b4b0e78b3c202ec8e18e723ea8c26f75/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2fa2e41c4d13d002351d2e56e2242322/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2fa2e41c4d13d002351d2e56e2242322/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8333d5f61734fc9974979a39468b7140/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8333d5f61734fc9974979a39468b7140/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ba52bb498e5531ac6e1736107e3f9aea/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ba52bb498e5531ac6e1736107e3f9aea/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/e69996f30a5682a4bb972ecc5a8710ff/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/e69996f30a5682a4bb972ecc5a8710ff/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9ae5939755d635d19a0f0110a72abf65/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9ae5939755d635d19a0f0110a72abf65/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/bf9db56ae45c8aad8d339ec36cd27a7c/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/bf9db56ae45c8aad8d339ec36cd27a7c/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/813b5c429a353755b8e913e520beebcb/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/813b5c429a353755b8e913e520beebcb/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/396ab095d52087430b21ec297f419f9e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/396ab095d52087430b21ec297f419f9e/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f035205a77d7e81b39ca2fce278fcc6c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f035205a77d7e81b39ca2fce278fcc6c/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f4093124f44f34ec3ff4e098414fff20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f4093124f44f34ec3ff4e098414fff20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ae41d0b4a310d130435aa81ebaae6758/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ae41d0b4a310d130435aa81ebaae6758/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14095415822ac4b78edc506132b02f34/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14095415822ac4b78edc506132b02f34/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c834e551c6e9f35482fef682cbf5c8f7/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c834e551c6e9f35482fef682cbf5c8f7/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7264aba96d9b742b5afca8ce8910a630/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7264aba96d9b742b5afca8ce8910a630/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f0b8c38dbe2ca5f1c4b2be1a52245312/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f0b8c38dbe2ca5f1c4b2be1a52245312/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8a5e20fb6e9532a3728580b4b0764eb9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8a5e20fb6e9532a3728580b4b0764eb9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cf4089fd4ca437e04a6e99514d25c5a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cf4089fd4ca437e04a6e99514d25c5a2/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7a879e801791830427bcf5f10ea0e1e7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7a879e801791830427bcf5f10ea0e1e7/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/66fc35b52bbeba513f33031c1871127e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/66fc35b52bbeba513f33031c1871127e/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d62b4fa635c183745a9c47709f0ecbd1/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d62b4fa635c183745a9c47709f0ecbd1/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7857c2dfbb8604419aed665609154421/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7857c2dfbb8604419aed665609154421/transformed/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/15448a8d104a00cd99b7da1d77f8bc87/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/15448a8d104a00cd99b7da1d77f8bc87/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8e570e53b1a2528078e4a7623a07b76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8e570e53b1a2528078e4a7623a07b76/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8c5e35dbfa11f53f37c30f84485fdf5a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8c5e35dbfa11f53f37c30f84485fdf5a/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d39f5d2a50ca81b2e6340b33a40a7aca/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d39f5d2a50ca81b2e6340b33a40a7aca/transformed/lifecycle-livedata-core-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6d7475a6d3da4f4fcea946e6c2c3e11d/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/6d7475a6d3da4f4fcea946e6c2c3e11d/transformed/lifecycle-livedata-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b7dcad621fb9cd925e1b082009f111f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b7dcad621fb9cd925e1b082009f111f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8f74d176fe3bdf27a6fed81d0032bd72/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8f74d176fe3bdf27a6fed81d0032bd72/transformed/lifecycle-viewmodel-2.8.4/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e98e6e22c76fc73a460b07dd1b34de5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/0e98e6e22c76fc73a460b07dd1b34de5/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/79ec746b2cc7fcdf86b272ffa59d678e/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/79ec746b2cc7fcdf86b272ffa59d678e/transformed/lifecycle-livedata-core-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cd229a331cdad0823ca0c5433982d10c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cd229a331cdad0823ca0c5433982d10c/transformed/lifecycle-viewmodel-ktx-2.8.4/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ccad1d3077d892ea9a688c915e0771a1/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ccad1d3077d892ea9a688c915e0771a1/transformed/lifecycle-viewmodel-savedstate-2.8.4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8b245f7b58a1fb002f816b7216c0b763/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/8b245f7b58a1fb002f816b7216c0b763/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/58a774b2aaf823f87f1fd9b063367b9e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/58a774b2aaf823f87f1fd9b063367b9e/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f3a0171e14c9611250722d00b1283eea/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f3a0171e14c9611250722d00b1283eea/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/04cab500e73b84b9628d63c8fd079090/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.8] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/04cab500e73b84b9628d63c8fd079090/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9a067a06eab32fef7c6bc5c9027e442a/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/9a067a06eab32fef7c6bc5c9027e442a/transformed/firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/abc0bbc3d1b97c797f886a5b3399892f/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/abc0bbc3d1b97c797f886a5b3399892f/transformed/play-services-tasks-18.1.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c27f1e139f6ffeacdacba9e4d66dd04a/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c27f1e139f6ffeacdacba9e4d66dd04a/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52a0e6033813bdcad7261e4428911131/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/52a0e6033813bdcad7261e4428911131/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/242254add805d626b966deb9ef427dc9/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/242254add805d626b966deb9ef427dc9/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/627fb5ec24f1259e1e0104067d3a8cee/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/627fb5ec24f1259e1e0104067d3a8cee/transformed/activity-compose-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5a210fc7fb4b4d67110fe4f3e18ce677/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-splashscreen:1.0.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/5a210fc7fb4b4d67110fe4f3e18ce677/transformed/core-splashscreen-1.0.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/34adc040cb686f477851faea08e0ed49/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [androidx.security:security-crypto:1.1.0-alpha06] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/34adc040cb686f477851faea08e0ed49/transformed/security-crypto-1.1.0-alpha06/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/62c9fbe18c209527b4159090bef59574/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/62c9fbe18c209527b4159090bef59574/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fb883cdd5e9de3c88282c7f62b9e4d9b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fb883cdd5e9de3c88282c7f62b9e4d9b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/648ed4983ec77fa7ad39561fc9b2d6e6/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/648ed4983ec77fa7ad39561fc9b2d6e6/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/270145ba37ea98e00c39e4801daf830c/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/270145ba37ea98e00c39e4801daf830c/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8fd7227841bf9b9bf9615295ce717cb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/f8fd7227841bf9b9bf9615295ce717cb/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/516e10e7980d2bd2de0cf196c02c3003/transformed/gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/516e10e7980d2bd2de0cf196c02c3003/transformed/gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fdf8304d5aade547fe48b3f03eb25b25/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fdf8304d5aade547fe48b3f03eb25b25/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b9e686ffe01f08b5ccc144024ccb977/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/7b9e686ffe01f08b5ccc144024ccb977/transformed/firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/207663552df672ae509e262f4da59c58/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.android.datatransport:transport-api:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/207663552df672ae509e262f4da59c58/transformed/transport-api-3.1.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/87108cbe0dad047219e8dde61f97bac1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/87108cbe0dad047219e8dde61f97bac1/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cbba7ca65412b3c056c7b7d728d20ebf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cbba7ca65412b3c056c7b7d728d20ebf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/50187ed9daf235069e0dd905c46755a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/50187ed9daf235069e0dd905c46755a4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/028f6b4b23b0e018b0d521bec5e943e3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/028f6b4b23b0e018b0d521bec5e943e3/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2af86e20f3899513c77c6e8315b555b6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2af86e20f3899513c77c6e8315b555b6/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c1154cace6abbee6948d0b473f69f6f1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c1154cace6abbee6948d0b473f69f6f1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/71f59810268daab715b676042b9764d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/71f59810268daab715b676042b9764d9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d9d388922f9c96c9fb67e74ea691d1d8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d9d388922f9c96c9fb67e74ea691d1d8/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1c1651ab084a6b27a494398e4c18e685/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.51.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/1c1651ab084a6b27a494398e4c18e685/transformed/dagger-lint-aar-2.51.1/AndroidManifest.xml:18:3-42
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/dd510d959cb925985e507e0247f4f859/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/dd510d959cb925985e507e0247f4f859/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:11:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:17:5-86
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:17:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:18:5-87
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:18:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:21:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:22:5-83
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:22:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:25:5-88
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:25:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:26:5-92
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:26:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:29:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:32:5-83
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:32:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:35:5-91
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:35:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:36:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:37:5-93
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:37:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:40:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:47:5-88
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:47:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:48:5-89
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:48:22-86
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:54:5-56:38
+	android:maxSdkVersion
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:56:9-35
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:55:9-52
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:57:5-59:38
+	android:maxSdkVersion
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:59:9-35
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:58:9-58
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:60:5-62:31
+	tools:targetApi
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:62:9-28
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:61:9-57
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:63:5-76
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:63:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:64:5-79
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:64:22-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:66:5-68:36
+	android:required
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:68:9-33
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:67:9-53
+activity#com.cleverpush.inbox.InboxDetailActivity
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:71:9-73:68
+	android:theme
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:73:13-65
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:72:13-68
+activity#com.cleverpush.NotificationOpenedActivity
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:74:9-80:75
+	android:excludeFromRecents
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:76:13-46
+	android:noHistory
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:78:13-37
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:77:13-36
+	android:theme
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:80:13-72
+	android:taskAffinity
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:79:13-36
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:75:13-69
+activity#com.cleverpush.PermissionActivity
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:81:9-84:86
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:83:13-37
+	android:theme
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:84:13-83
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:82:13-61
+activity#com.cleverpush.stories.StoryDetailActivity
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:85:9-87:56
+	android:theme
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:87:13-53
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:86:13-70
+activity#com.cleverpush.banner.WebViewActivity
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:88:9-90:66
+	android:theme
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:90:13-63
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:89:13-65
+service#com.cleverpush.service.CarouselNotificationIntentService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:92:9-94:40
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:93:13-84
+service#com.cleverpush.service.NotificationDismissIntentService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:95:9-97:40
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:97:13-37
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:96:13-83
+service#com.cleverpush.service.CleverPushGeofenceTransitionsIntentService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:98:9-100:40
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:99:13-93
+service#com.cleverpush.service.CleverPushFcmListenerService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:101:9-107:19
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:103:13-37
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:102:13-79
+service#com.cleverpush.service.CleverPushHmsListenerService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:108:9-114:19
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:110:13-37
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:109:13-79
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:111:13-113:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:112:17-81
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:112:25-78
+service#com.cleverpush.service.CleanUpService
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:115:9-119:44
+	android:enabled
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:117:13-35
+	android:exported
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:118:13-37
+	android:stopWithTask
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:119:13-41
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:116:13-65
+receiver#com.cleverpush.GeofenceBroadcastReceiver
+ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:121:9-77
+	android:name
+		ADDED from [com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:121:19-74
+uses-library#wear-sdk
+ADDED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:24:13-36
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:23:9-29:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:54:9-63:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+MERGED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:22:9-28:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:25:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:24:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar
+ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:26:13-28:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:28:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:27:17-129
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/af93e066df4c71a5b66f259a78ad6302/transformed/play-services-cloud-messaging-17.2.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:33:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:25-78
+meta-data#com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/c17a3e01219bbebacadd4ba375cea77d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.ssncomputer.retteralarmtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.ssncomputer.retteralarmtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132

@@ -1,0 +1,553 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ssncomputer.retteralarmtest"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature android:name="android.hardware.type.watch" />
+11-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:4:5-64
+11-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:4:19-61
+12
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:5:5-67
+13-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:6:5-79
+14-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:6:22-76
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:7:5-77
+15-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:7:22-74
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:8:5-68
+16-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:8:22-65
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:8:5-66
+17-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:8:22-63
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:10:5-80
+18-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:10:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- START: ShortcutBadger -->
+19-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:11:5-81
+19-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:11:22-78
+20    <!-- Samsung -->
+21    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+21-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:17:5-86
+21-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:17:22-83
+22    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+22-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:18:5-87
+22-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:18:22-84
+23    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+23-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:21:5-81
+23-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:21:22-78
+24    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+24-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:22:5-83
+24-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:22:22-80
+25    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+25-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:25:5-88
+25-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:25:22-85
+26    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+26-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:26:5-92
+26-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:26:22-89
+27    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+27-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:29:5-84
+27-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:29:22-81
+28    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+28-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:32:5-83
+28-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:32:22-80
+29    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+29-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:35:5-91
+29-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:35:22-88
+30    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+30-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:36:5-92
+30-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:36:22-89
+31    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+31-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:37:5-93
+31-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:37:22-90
+32    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+32-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:40:5-73
+32-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:40:22-70
+33    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+33-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:43:5-82
+33-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:43:22-79
+34    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+34-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:44:5-83
+34-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:44:22-80
+35    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+35-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:47:5-88
+35-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:47:22-85
+36    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" /> <!-- End: ShortcutBadger -->
+36-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:48:5-89
+36-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:48:22-86
+37    <!-- START: Beacons / BLE monitoring -->
+38    <uses-permission
+38-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:54:5-56:38
+39        android:name="android.permission.BLUETOOTH"
+39-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:55:9-52
+40        android:maxSdkVersion="30" />
+40-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:56:9-35
+41    <uses-permission
+41-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:57:5-59:38
+42        android:name="android.permission.BLUETOOTH_ADMIN"
+42-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:58:9-58
+43        android:maxSdkVersion="30" />
+43-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:59:9-35
+44    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+44-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:60:5-62:31
+44-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:61:9-57
+45    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+45-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:63:5-76
+45-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:63:22-73
+46    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+46-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:64:5-79
+46-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:64:22-76
+47
+48    <uses-feature
+48-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:66:5-68:36
+49        android:name="android.hardware.bluetooth_le"
+49-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:67:9-53
+50        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+50-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:68:9-33
+51    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+51-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+51-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+52
+53    <permission
+53-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+54        android:name="com.ssncomputer.retteralarmtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+54-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+55        android:protectionLevel="signature" />
+55-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+56
+57    <uses-permission android:name="com.ssncomputer.retteralarmtest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+57-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+57-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+58
+59    <application
+59-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:10:5-45:19
+60        android:name="com.ssncomputer.retteralarmtest.WatchApplication"
+60-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:11:9-72
+61        android:allowBackup="false"
+61-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:12:9-36
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.13.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/05daa63bbb7c92f2fa2c62f82acfb505/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+63        android:debuggable="true"
+64        android:extractNativeLibs="false"
+65        android:icon="@mipmap/ic_launcher"
+65-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:13:9-43
+66        android:label="@string/app_name"
+66-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:14:9-41
+67        android:networkSecurityConfig="@xml/network_security_config"
+67-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:16:9-69
+68        android:testOnly="true"
+69        android:theme="@android:style/Theme.DeviceDefault" >
+69-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:15:9-59
+70        <meta-data
+70-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:9-97
+71            android:name="com.google.android.wearable.standalone"
+71-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:20-73
+72            android:value="true" />
+72-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:18:74-94
+73
+74        <activity
+74-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:20:9-36:20
+75            android:name="com.ssncomputer.retteralarmtest.presentation.MainActivity"
+75-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:21:13-85
+76            android:exported="true"
+76-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:22:13-36
+77            android:launchMode="singleTask"
+77-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:23:13-44
+78            android:taskAffinity="" >
+78-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:24:13-36
+79            <intent-filter>
+79-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:25:13-28:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:26:17-69
+80-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:26:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:27:17-77
+82-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:27:27-74
+83            </intent-filter>
+84            <!-- Deep link used by CleverPushMessagingService when a notification is tapped -->
+85            <intent-filter>
+85-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:30:13-35:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:31:17-69
+86-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:31:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:32:17-76
+88-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:32:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:33:17-78
+89-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:33:27-75
+90
+91                <data
+91-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:17-84
+92                    android:host="notification"
+92-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:54-81
+93                    android:scheme="smartwatchapp" />
+93-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:34:23-53
+94            </intent-filter>
+95        </activity>
+96
+97        <service
+97-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:38:9-44:19
+98            android:name="com.ssncomputer.retteralarmtest.notification.CleverPushMessagingService"
+98-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:39:13-99
+99            android:exported="false" >
+99-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:40:13-37
+100            <intent-filter>
+100-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:41:13-43:29
+101                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+101-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:17-78
+101-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:25-75
+102            </intent-filter>
+103        </service>
+104
+105        <activity
+105-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:71:9-73:68
+106            android:name="com.cleverpush.inbox.InboxDetailActivity"
+106-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:72:13-68
+107            android:theme="@style/cleverpush_inbox_detail_theme" />
+107-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:73:13-65
+108        <activity
+108-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:74:9-80:75
+109            android:name="com.cleverpush.NotificationOpenedActivity"
+109-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:75:13-69
+110            android:excludeFromRecents="true"
+110-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:76:13-46
+111            android:exported="true"
+111-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:77:13-36
+112            android:noHistory="true"
+112-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:78:13-37
+113            android:taskAffinity=""
+113-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:79:13-36
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:80:13-72
+115        <activity
+115-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:81:9-84:86
+116            android:name="com.cleverpush.PermissionActivity"
+116-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:82:13-61
+117            android:exported="false"
+117-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:83:13-37
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+118-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:84:13-83
+119        <activity
+119-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:85:9-87:56
+120            android:name="com.cleverpush.stories.StoryDetailActivity"
+120-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:86:13-70
+121            android:theme="@style/Theme.Transparent" />
+121-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:87:13-53
+122        <activity
+122-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:88:9-90:66
+123            android:name="com.cleverpush.banner.WebViewActivity"
+123-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:89:13-65
+124            android:theme="@style/Theme.AppCompat.NoActionBar" />
+124-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:90:13-63
+125
+126        <service
+126-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:92:9-94:40
+127            android:name="com.cleverpush.service.CarouselNotificationIntentService"
+127-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:93:13-84
+128            android:exported="false" />
+128-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:94:13-37
+129        <service
+129-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:95:9-97:40
+130            android:name="com.cleverpush.service.NotificationDismissIntentService"
+130-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:96:13-83
+131            android:exported="false" />
+131-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:97:13-37
+132        <service
+132-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:98:9-100:40
+133            android:name="com.cleverpush.service.CleverPushGeofenceTransitionsIntentService"
+133-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:99:13-93
+134            android:exported="false" />
+134-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:100:13-37
+135        <service
+135-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:101:9-107:19
+136            android:name="com.cleverpush.service.CleverPushFcmListenerService"
+136-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:102:13-79
+137            android:exported="false" >
+137-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:103:13-37
+138            <intent-filter>
+138-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:41:13-43:29
+139                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+139-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:17-78
+139-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:25-75
+140            </intent-filter>
+141        </service>
+142        <service
+142-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:108:9-114:19
+143            android:name="com.cleverpush.service.CleverPushHmsListenerService"
+143-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:109:13-79
+144            android:exported="false" >
+144-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:110:13-37
+145            <intent-filter>
+145-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:111:13-113:29
+146                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+146-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:112:17-81
+146-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:112:25-78
+147            </intent-filter>
+148        </service>
+149        <service
+149-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:115:9-119:44
+150            android:name="com.cleverpush.service.CleanUpService"
+150-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:116:13-65
+151            android:enabled="true"
+151-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:117:13-35
+152            android:exported="false"
+152-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:118:13-37
+153            android:stopWithTask="false" />
+153-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:119:13-41
+154
+155        <receiver android:name="com.cleverpush.GeofenceBroadcastReceiver" />
+155-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:121:9-77
+155-->[com.cleverpush:cleverpush:1.35.34] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ee77fda3f8c424736d880545a9549c54/transformed/cleverpush-1.35.34/AndroidManifest.xml:121:19-74
+156
+157        <uses-library
+157-->[androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:23:9-25:40
+158            android:name="wear-sdk"
+158-->[androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:24:13-36
+159            android:required="false" />
+159-->[androidx.wear:wear-remote-interactions:1.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d1c79e7ec4143e2e15cbfb83fb3c7457/transformed/wear-remote-interactions-1.1.0/AndroidManifest.xml:25:13-37
+160
+161        <service
+161-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:23:9-29:19
+162            android:name="com.google.firebase.components.ComponentDiscoveryService"
+162-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:24:13-84
+163            android:directBootAware="true"
+163-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+164            android:exported="false" >
+164-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:25:13-37
+165            <meta-data
+165-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:26:13-28:85
+166                android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingLegacyRegistrar"
+166-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:27:17-129
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-messaging-ktx:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/020b58d93895d1ee06a9eccbd0676fbd/transformed/firebase-messaging-ktx-24.0.0/AndroidManifest.xml:28:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+169                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+169-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+171            <meta-data
+171-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+172                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+172-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+175                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+175-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+177            <meta-data
+177-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+178                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+178-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+179                android:value="com.google.firebase.components.ComponentRegistrar" />
+179-->[com.google.firebase:firebase-installations:17.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/90233bb4f37a8c099fd98e08fbf52fc6/transformed/firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+180            <meta-data
+180-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+181                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+181-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4d021be3c0fa3d63eef664a4af1a9210/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+184                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+184-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+187                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+187-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/ea0db5cba41cbca3e65157cdf4dd0ba7/transformed/firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+189        </service>
+190
+191        <receiver
+191-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+192            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+192-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+193            android:exported="true"
+193-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+194            android:permission="com.google.android.c2dm.permission.SEND" >
+194-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+195            <intent-filter>
+195-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:33:13-35:29
+196                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+196-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:17-81
+196-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:34:25-78
+197            </intent-filter>
+198
+199            <meta-data
+199-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+200                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+200-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+201                android:value="true" />
+201-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+202        </receiver>
+203        <!--
+204             FirebaseMessagingService performs security checks at runtime,
+205             but set to not exported to explicitly avoid allowing another app to call it.
+206        -->
+207        <service
+207-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+208            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+208-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+209            android:directBootAware="true"
+209-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+210            android:exported="false" >
+210-->[com.google.firebase:firebase-messaging:24.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/4e1a7808719887f6e97c947a1e5d5a0d/transformed/firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+211            <intent-filter android:priority="-500" >
+211-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:41:13-43:29
+212                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+212-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:17-78
+212-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/src/main/AndroidManifest.xml:42:25-75
+213            </intent-filter>
+214        </service>
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:18.1.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/14aa5f4403a642fcdb25c8c7443268b5/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+220
+221        <provider
+221-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+222            android:name="com.google.firebase.provider.FirebaseInitProvider"
+222-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+223            android:authorities="com.ssncomputer.retteralarmtest.firebaseinitprovider"
+223-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+224            android:directBootAware="true"
+224-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+225            android:exported="false"
+225-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+226            android:initOrder="100" />
+226-->[com.google.firebase:firebase-common:21.0.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/eabdfc0bb12a852808442e69764a5d83/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+227        <provider
+227-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+228            android:name="androidx.startup.InitializationProvider"
+228-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+229            android:authorities="com.ssncomputer.retteralarmtest.androidx-startup"
+229-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+230            android:exported="false" >
+230-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+231            <meta-data
+231-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+232                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+232-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+233                android:value="androidx.startup" />
+233-->[androidx.emoji2:emoji2:1.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/20bea0d5bf5a3c58be63693748367590/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+234            <meta-data
+234-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:29:13-31:52
+235                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+235-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:30:17-78
+236                android:value="androidx.startup" />
+236-->[androidx.lifecycle:lifecycle-process:2.8.4] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/cb2316d21d798be0d466a0ebe3edc686/transformed/lifecycle-process-2.8.4/AndroidManifest.xml:31:17-49
+237            <meta-data
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+238                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+239                android:value="androidx.startup" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+240        </provider>
+241
+242        <meta-data
+242-->[com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+243            android:name="com.google.android.gms.version"
+243-->[com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+244            android:value="@integer/google_play_services_version" />
+244-->[com.google.android.gms:play-services-basement:18.3.0] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fa4fb309c9e5b9dc720fcbc80cc1d4cb/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+245
+246        <service
+246-->[androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:24:9-28:63
+247            android:name="androidx.room.MultiInstanceInvalidationService"
+247-->[androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:25:13-74
+248            android:directBootAware="true"
+248-->[androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:26:13-43
+249            android:exported="false" />
+249-->[androidx.room:room-runtime:2.5.2] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/fadeb7409977bdb456964c5064106144/transformed/room-runtime-2.5.2/AndroidManifest.xml:27:13-37
+250
+251        <receiver
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+252            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+253            android:directBootAware="false"
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+254            android:enabled="true"
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+255            android:exported="true"
+255-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+256            android:permission="android.permission.DUMP" >
+256-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+257            <intent-filter>
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+258                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+259            </intent-filter>
+260            <intent-filter>
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+261                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+262            </intent-filter>
+263            <intent-filter>
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+264                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+265            </intent-filter>
+266            <intent-filter>
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+267                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/3f7859b14ee1a6d4a8489b492a31fbb8/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+268            </intent-filter>
+269        </receiver>
+270
+271        <service
+271-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+272            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+272-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+273            android:exported="false" >
+273-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+274            <meta-data
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+275                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+276                android:value="cct" />
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/21598e41bc61d7fedf3df7430011dfaa/transformed/transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+277        </service>
+278        <service
+278-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+279            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+279-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+280            android:exported="false"
+280-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+281            android:permission="android.permission.BIND_JOB_SERVICE" >
+281-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+282        </service>
+283
+284        <receiver
+284-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+285            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+285-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+286            android:exported="false" />
+286-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/d92c4b25d51597a706cb4505bccd75d1/transformed/transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+287    </application>
+288
+289</manifest>
