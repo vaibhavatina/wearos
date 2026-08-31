@@ -43,13 +43,13 @@ class CleverPushMessagingService : FirebaseMessagingService() {
 
         val payload = if (message.data["notificationId"].isNullOrBlank()) {
             Logger.d(TAG, "Temporary payload without notificationId, using fallback payload")
-            buildFallbackPayload(message) ?: return
+            buildFallbackPayload(message)
         } else {
             try {
                 NotificationPayload.fromRawExtras(message.data)
             } catch (_: NotificationParseException) {
                 Logger.d(TAG, "Invalid payload format, using fallback payload")
-                buildFallbackPayload(message) ?: return
+                buildFallbackPayload(message)
             }
         }
 
@@ -98,15 +98,13 @@ class CleverPushMessagingService : FirebaseMessagingService() {
      * Temporary fallback for test notifications that only include notification/body fields.
      * Keeps the app flow alive so the message can be viewed on-device.
      */
-    private fun buildFallbackPayload(message: RemoteMessage): NotificationPayload? {
+    private fun buildFallbackPayload(message: RemoteMessage): NotificationPayload {
         val title = message.data["title"].orEmpty()
             .ifBlank { message.notification?.title.orEmpty() }
+            .ifBlank { "Test Notification" }
         val text = message.data["message"].orEmpty()
             .ifBlank { message.notification?.body.orEmpty() }
-        if (text.isBlank()) {
-            Logger.e(TAG, "Dropping notification: both data.message and notification.body are blank")
-            return null
-        }
+            .ifBlank { "No payload matched, showing temporary fallback content." }
         return NotificationPayload(
             notificationId = message.messageId ?: "temp-${System.currentTimeMillis()}",
             title = title,

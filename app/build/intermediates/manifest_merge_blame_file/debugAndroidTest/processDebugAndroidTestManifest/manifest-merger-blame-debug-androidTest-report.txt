@@ -3,24 +3,24 @@
 3    package="com.ssncomputer.retteralarmtest.test" >
 4
 5    <uses-sdk
-5-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:5:5-74
+5-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:5:5-74
 6        android:minSdkVersion="30"
-6-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:5:15-41
+6-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:5:42-71
+7-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:5:42-71
 8
 9    <instrumentation
-9-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:11:5-15:81
+9-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:11:5-15:81
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:11:22-76
+10-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:11:22-76
 11        android:functionalTest="false"
-11-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:14:22-52
+11-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:14:22-52
 12        android:handleProfiling="false"
-12-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:13:22-53
+12-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:13:22-53
 13        android:label="Tests for com.ssncomputer.retteralarmtest"
-13-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:15:22-79
+13-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:15:22-79
 14        android:targetPackage="com.ssncomputer.retteralarmtest" />
-14-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:12:22-77
+14-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:12:22-77
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.6.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2655acff5a46686a44aa57c9b89e5682/transformed/core-1.6.1/AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:7:5-9:19
+24-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:8:9-60
-27-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest14075956721661302860.xml:8:23-57
+27-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:8:9-60
+27-->/Users/atpl-mac-m4/Projects/SmartWatchNotifications/wearos/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest5784447420248233466.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.6.1] /Users/atpl-mac-m4/.gradle/caches/8.14.5/transforms/2655acff5a46686a44aa57c9b89e5682/transformed/core-1.6.1/AndroidManifest.xml:27:9-34:20

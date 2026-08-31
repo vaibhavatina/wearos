@@ -1,6 +1,5 @@
 package com.ssncomputer.retteralarmtest.data.remote;
 
-import com.squareup.moshi.Moshi;
 import com.ssncomputer.retteralarmtest.data.local.SecureTokenStorage;
 import dagger.internal.DaggerGenerated;
 import dagger.internal.Factory;
@@ -26,29 +25,26 @@ import javax.inject.Provider;
 public final class TokenAuthenticator_Factory implements Factory<TokenAuthenticator> {
   private final Provider<SecureTokenStorage> tokenStorageProvider;
 
-  private final Provider<WatchApiService> refreshApiServiceProvider;
-
-  private final Provider<Moshi> moshiProvider;
+  private final Provider<AuthApi> refreshApiServiceProvider;
 
   public TokenAuthenticator_Factory(Provider<SecureTokenStorage> tokenStorageProvider,
-      Provider<WatchApiService> refreshApiServiceProvider, Provider<Moshi> moshiProvider) {
+      Provider<AuthApi> refreshApiServiceProvider) {
     this.tokenStorageProvider = tokenStorageProvider;
     this.refreshApiServiceProvider = refreshApiServiceProvider;
-    this.moshiProvider = moshiProvider;
   }
 
   @Override
   public TokenAuthenticator get() {
-    return newInstance(tokenStorageProvider.get(), refreshApiServiceProvider, moshiProvider.get());
+    return newInstance(tokenStorageProvider.get(), refreshApiServiceProvider);
   }
 
   public static TokenAuthenticator_Factory create(Provider<SecureTokenStorage> tokenStorageProvider,
-      Provider<WatchApiService> refreshApiServiceProvider, Provider<Moshi> moshiProvider) {
-    return new TokenAuthenticator_Factory(tokenStorageProvider, refreshApiServiceProvider, moshiProvider);
+      Provider<AuthApi> refreshApiServiceProvider) {
+    return new TokenAuthenticator_Factory(tokenStorageProvider, refreshApiServiceProvider);
   }
 
   public static TokenAuthenticator newInstance(SecureTokenStorage tokenStorage,
-      Provider<WatchApiService> refreshApiServiceProvider, Moshi moshi) {
-    return new TokenAuthenticator(tokenStorage, refreshApiServiceProvider, moshi);
+      Provider<AuthApi> refreshApiServiceProvider) {
+    return new TokenAuthenticator(tokenStorage, refreshApiServiceProvider);
   }
 }

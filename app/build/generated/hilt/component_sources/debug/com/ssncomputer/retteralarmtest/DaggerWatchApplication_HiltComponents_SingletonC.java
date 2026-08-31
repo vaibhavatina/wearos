@@ -9,6 +9,7 @@ import androidx.lifecycle.ViewModel;
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
 import com.squareup.moshi.Moshi;
 import com.ssncomputer.retteralarmtest.data.local.SecureTokenStorage;
+import com.ssncomputer.retteralarmtest.data.remote.AuthApi;
 import com.ssncomputer.retteralarmtest.data.remote.AuthInterceptor;
 import com.ssncomputer.retteralarmtest.data.remote.TokenAuthenticator;
 import com.ssncomputer.retteralarmtest.data.remote.WatchApiService;
@@ -16,6 +17,7 @@ import com.ssncomputer.retteralarmtest.data.repository.AuthRepository;
 import com.ssncomputer.retteralarmtest.data.repository.AuthRepositoryImpl;
 import com.ssncomputer.retteralarmtest.data.repository.NotificationActionRepository;
 import com.ssncomputer.retteralarmtest.data.repository.NotificationActionRepositoryImpl;
+import com.ssncomputer.retteralarmtest.di.NetworkModule_ProvideAuthApiFactory;
 import com.ssncomputer.retteralarmtest.di.NetworkModule_ProvideLoggingInterceptorFactory;
 import com.ssncomputer.retteralarmtest.di.NetworkModule_ProvideMoshiFactory;
 import com.ssncomputer.retteralarmtest.di.NetworkModule_ProvideOkHttpClientFactory;
@@ -612,9 +614,9 @@ public final class DaggerWatchApplication_HiltComponents_SingletonC {
 
     private Provider<SecureTokenStorage> secureTokenStorageProvider;
 
-    private Provider<WatchApiService> provideWatchApiServiceProvider;
+    private Provider<Retrofit> provideRetrofitProvider;
 
-    private Provider<Moshi> provideMoshiProvider;
+    private Provider<AuthApi> provideAuthApiProvider;
 
     private Provider<TokenAuthenticator> tokenAuthenticatorProvider;
 
@@ -622,7 +624,9 @@ public final class DaggerWatchApplication_HiltComponents_SingletonC {
 
     private Provider<OkHttpClient> provideOkHttpClientProvider;
 
-    private Provider<Retrofit> provideRetrofitProvider;
+    private Provider<Moshi> provideMoshiProvider;
+
+    private Provider<WatchApiService> provideWatchApiServiceProvider;
 
     private Provider<AuthRepositoryImpl> authRepositoryImplProvider;
 
@@ -648,17 +652,18 @@ public final class DaggerWatchApplication_HiltComponents_SingletonC {
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.notificationEventBusProvider = DoubleCheck.provider(new SwitchingProvider<NotificationEventBus>(singletonCImpl, 0));
       this.secureTokenStorageProvider = DoubleCheck.provider(new SwitchingProvider<SecureTokenStorage>(singletonCImpl, 1));
-      this.provideWatchApiServiceProvider = new DelegateFactory<>();
-      this.provideMoshiProvider = DoubleCheck.provider(new SwitchingProvider<Moshi>(singletonCImpl, 7));
+      this.provideRetrofitProvider = new DelegateFactory<>();
+      this.provideAuthApiProvider = DoubleCheck.provider(new SwitchingProvider<AuthApi>(singletonCImpl, 7));
       this.tokenAuthenticatorProvider = DoubleCheck.provider(new SwitchingProvider<TokenAuthenticator>(singletonCImpl, 6));
       this.provideLoggingInterceptorProvider = DoubleCheck.provider(new SwitchingProvider<HttpLoggingInterceptor>(singletonCImpl, 8));
       this.provideOkHttpClientProvider = DoubleCheck.provider(new SwitchingProvider<OkHttpClient>(singletonCImpl, 5));
-      this.provideRetrofitProvider = DoubleCheck.provider(new SwitchingProvider<Retrofit>(singletonCImpl, 4));
-      DelegateFactory.setDelegate(provideWatchApiServiceProvider, DoubleCheck.provider(new SwitchingProvider<WatchApiService>(singletonCImpl, 3)));
+      this.provideMoshiProvider = DoubleCheck.provider(new SwitchingProvider<Moshi>(singletonCImpl, 9));
+      DelegateFactory.setDelegate(provideRetrofitProvider, DoubleCheck.provider(new SwitchingProvider<Retrofit>(singletonCImpl, 4)));
+      this.provideWatchApiServiceProvider = DoubleCheck.provider(new SwitchingProvider<WatchApiService>(singletonCImpl, 3));
       this.authRepositoryImplProvider = new SwitchingProvider<>(singletonCImpl, 2);
       this.bindAuthRepositoryProvider = DoubleCheck.provider((Provider) authRepositoryImplProvider);
-      this.deviceQrCodeScannerProvider = DoubleCheck.provider(new SwitchingProvider<DeviceQrCodeScanner>(singletonCImpl, 9));
-      this.notificationActionRepositoryImplProvider = new SwitchingProvider<>(singletonCImpl, 10);
+      this.deviceQrCodeScannerProvider = DoubleCheck.provider(new SwitchingProvider<DeviceQrCodeScanner>(singletonCImpl, 10));
+      this.notificationActionRepositoryImplProvider = new SwitchingProvider<>(singletonCImpl, 11);
       this.bindNotificationActionRepositoryProvider = DoubleCheck.provider((Provider) notificationActionRepositoryImplProvider);
     }
 
@@ -714,18 +719,21 @@ public final class DaggerWatchApplication_HiltComponents_SingletonC {
           return (T) NetworkModule_ProvideOkHttpClientFactory.provideOkHttpClient(singletonCImpl.authInterceptor(), singletonCImpl.tokenAuthenticatorProvider.get(), singletonCImpl.provideLoggingInterceptorProvider.get());
 
           case 6: // com.ssncomputer.retteralarmtest.data.remote.TokenAuthenticator 
-          return (T) new TokenAuthenticator(singletonCImpl.secureTokenStorageProvider.get(), singletonCImpl.provideWatchApiServiceProvider, singletonCImpl.provideMoshiProvider.get());
+          return (T) new TokenAuthenticator(singletonCImpl.secureTokenStorageProvider.get(), singletonCImpl.provideAuthApiProvider);
 
-          case 7: // com.squareup.moshi.Moshi 
-          return (T) NetworkModule_ProvideMoshiFactory.provideMoshi();
+          case 7: // com.ssncomputer.retteralarmtest.data.remote.AuthApi 
+          return (T) NetworkModule_ProvideAuthApiFactory.provideAuthApi(singletonCImpl.provideRetrofitProvider.get());
 
           case 8: // okhttp3.logging.HttpLoggingInterceptor 
           return (T) NetworkModule_ProvideLoggingInterceptorFactory.provideLoggingInterceptor();
 
-          case 9: // com.ssncomputer.retteralarmtest.util.DeviceQrCodeScanner 
+          case 9: // com.squareup.moshi.Moshi 
+          return (T) NetworkModule_ProvideMoshiFactory.provideMoshi();
+
+          case 10: // com.ssncomputer.retteralarmtest.util.DeviceQrCodeScanner 
           return (T) new DeviceQrCodeScanner(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
-          case 10: // com.ssncomputer.retteralarmtest.data.repository.NotificationActionRepositoryImpl 
+          case 11: // com.ssncomputer.retteralarmtest.data.repository.NotificationActionRepositoryImpl 
           return (T) new NotificationActionRepositoryImpl(singletonCImpl.provideWatchApiServiceProvider.get());
 
           default: throw new AssertionError(id);
