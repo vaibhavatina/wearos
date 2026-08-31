@@ -1,0 +1,84 @@
+# ====================================================================
+# Built application files and artifacts
+# ====================================================================
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# ====================================================================
+# Files for the ART/Dalvik VM (Bytecode & Classes)
+# ====================================================================
+*.dex
+*.class
+
+# ====================================================================
+# Generated Directories and Build Outputs
+# ====================================================================
+bin/
+gen/
+out/
+build/
+/*/build/
+
+# ====================================================================
+# Gradle Files and Caches
+# ====================================================================
+.gradle/
+buildSrc/build/
+.kotlin/
+
+# ====================================================================
+# Local Configuration and Environment Files (SENSITIVE)
+# Contains local SDK paths, API keys, and environment variables.
+# ====================================================================
+local.properties
+secrets.properties
+
+# ====================================================================
+# Keystore and Signing Files (CRITICAL SECURITY)
+# NEVER commit your production release keystore files to version control.
+# ====================================================================
+*.jks
+*.keystore
+*.p12
+
+# ====================================================================
+# Android Studio / IntelliJ IDEA Files
+# ====================================================================
+# Ignore the entire IDE settings directory (Recommended standard approach)
+.idea/
+
+# OR if you want to share basic team code styles via .idea, uncomment
+# the .idea/ rule above and instead uncomment the lines below:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+# .idea/libraries
+# .idea/caches
+# .idea/assetWizardSettings.xml
+# .idea/gradle.xml
+
+# Module files
+*.iml
+*.ipr
+*.iws
+modules.xml
+
+# Android Studio temporary diagnostics and features
+captures/
+.navigation/
+externalNativeBuild/
+.cxx/
+*.hprof
+
+# ====================================================================
+# Log Files
+# ====================================================================
+*.log
+
+# ====================================================================
+# OS-specific files
+# ====================================================================
+.DS_Store
+Thumbs.db
